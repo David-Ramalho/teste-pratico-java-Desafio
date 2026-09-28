@@ -1,2 +1,91 @@
-# teste-pratico-java-iniflex
-Implementação do teste prático de Java para processo seletivo.
+# Teste Prático Java — Iniflex
+
+Implementação do teste prático de Java proposto durante processo seletivo.
+
+## Tecnologias utilizadas
+
+* Java 27
+* `LocalDate` para manipulação de datas
+* `BigDecimal` para valores monetários
+* Collections (`List` e `Map`)
+* Stream API
+* `Comparator` para ordenação
+* `Period` para cálculo de idade
+
+## Estrutura do projeto
+
+```text
+src/
+├── Pessoa.java
+├── Funcionario.java
+└── Principal.java
+```
+
+### Pessoa
+
+Classe responsável pelos dados básicos de uma pessoa:
+
+* Nome
+* Data de nascimento
+
+### Funcionario
+
+Classe que estende `Pessoa` e adiciona:
+
+* Salário
+* Função
+
+### Principal
+
+Responsável pela execução do programa e implementação das operações solicitadas no teste.
+
+## Funcionalidades implementadas
+
+O projeto contempla os requisitos do teste:
+
+* Cadastro dos funcionários conforme os dados fornecidos
+* Remoção do funcionário João
+* Exibição dos funcionários com formatação de data e salário
+* Aplicação de aumento salarial de 10%
+* Agrupamento de funcionários por função
+* Exibição dos funcionários agrupados por função
+* Identificação dos aniversariantes dos meses de outubro e dezembro
+* Identificação do funcionário mais velho e cálculo da idade
+* Ordenação dos funcionários em ordem alfabética
+* Cálculo do total dos salários
+* Cálculo da quantidade de salários mínimos recebida por cada funcionário
+
+## Como executar
+
+### Pré-requisito
+
+É necessário ter o JDK instalado.
+
+Para verificar a versão do Java:
+
+```powershell
+java -version
+javac -version
+```
+
+### Compilação
+
+No terminal, dentro da pasta do projeto:
+
+```powershell
+javac *.java
+```
+
+### Execução
+
+Após a compilação:
+
+```powershell
+java Principal
+```
+
+## Observações
+
+Os valores salariais são tratados utilizando `BigDecimal`, visando maior precisão em operações monetárias.
+
+As datas são manipuladas utilizando a API `java.time`.

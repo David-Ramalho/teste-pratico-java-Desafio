@@ -1,4 +1,4 @@
-# Teste Prático Java — Iniflex
+# Teste Prático Java
 
 Implementação do teste prático de Java proposto durante processo seletivo.
 

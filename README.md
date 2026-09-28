@@ -15,11 +15,15 @@ Implementação do teste prático de Java proposto durante processo seletivo.
 ## Estrutura do projeto
 
 ```text
-src/
+teste-pratico-java-iniflex/
 ├── Pessoa.java
 ├── Funcionario.java
-└── Principal.java
+├── Principal.java
+├── README.md
+└── .gitignore
 ```
+
+## Classes
 
 ### Pessoa
 
@@ -59,20 +63,20 @@ O projeto contempla os requisitos do teste:
 
 ### Pré-requisito
 
-É necessário ter o JDK instalado.
+É necessário ter o JDK 27 instalado.
 
-Para verificar a versão do Java:
+Para verificar a instalação:
 
-```powershell
+```bash
 java -version
 javac -version
 ```
 
 ### Compilação
 
-No terminal, dentro da pasta do projeto:
+Abra um terminal na pasta do projeto e execute:
 
-```powershell
+```bash
 javac *.java
 ```
 
@@ -80,7 +84,7 @@ javac *.java
 
 Após a compilação:
 
-```powershell
+```bash
 java Principal
 ```
 

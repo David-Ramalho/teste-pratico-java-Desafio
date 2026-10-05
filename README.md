@@ -1,6 +1,6 @@
 # Teste Prático Java
 
-Implementação do teste prático de Java proposto durante processo seletivo.
+Implementação do teste prático de Java proposto durante desafio.
 
 ## Tecnologias utilizadas
 
